@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apuntes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <h1 class="titulo_ppal">Explora el universo de los lenguajes de marcas</h1>
+
+    <!-- table>(thead>td*3{$})+tr*2>td*3{$} -->
+    <table>
+        <thead>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </thead>
+        <tr>
+            <td id="pikachu">1</td>
+            <td id="charmander">2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+    </table>
+
+    <form action="">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <div class="campo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+
+            <div class="campo">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos de Contacto</legend>
+            <div class="campo">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje" rows="3" cols="20"></textarea>
+        </div>
+
+        <input id="enviar" type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+
+    </form>
+
+
+</body>
+
+</html>
