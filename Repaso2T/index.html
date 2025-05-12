@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <h1>Pokedex</h1>
+
+    <table>
+        <tr>
+            <td>
+                <img class="pokemon" src="img/bulbasaur.png" alt="Bulbasaur">
+                <p class="nombre">Bulbasaur</p>
+            </td>
+            <td>
+                <img class="pokemon" src="img/ivysaur.png" alt="Ivysaur">
+                <p class="nombre">Ivysaur</p>
+            </td>
+            <td>
+                <img class="pokemon" src="img/venusaur.png" alt="Venusaur">
+                <p class="nombre">Venusaur</p>
+            </td>
+            <td>
+                <img class="pokemon" src="img/charmander.png" alt="Charmander">
+                <p class="nombre">Charmander</p>
+            </td>
+        </tr>
+        <tr id="con_imagen_de_fondo">
+            <td id="charmaleon">
+                <p class="nombre">Charmaleon</p>
+            </td>
+            <td id="charizard">
+                <p class="nombre">Charizard</p>
+            </td>
+            <td id="squirtle">
+                <p class="nombre">Squirtle</p>
+            </td>
+            <td id="wartortle">
+                <p class="nombre">Wartortle</p>
+            </td>
+        </tr>
+        <tr></tr>
+    </table>
+
+    <div id="formulario">
+        <form action="mailto:pepe@gmail.com">
+            <div class="elemento">
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre" required>
+            </div>
+
+            <div class="elemento">
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="elemento">
+                <label for="nacimiento">Fecha de Nacimiento: </label>
+                <input type="date" name="nacimiento" id="nacimiento" required>
+            </div>
+            <div class="elemento">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Pokemon;
+    src: url('../fonts/PokemonSolid.ttf');
+}
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../img/wallpaper.jpg');
+    background-size: cover;
+}
+
+h1 {
+    font-family: Pokemon;
+    color: yellow;
+    text-shadow: -1px 0 blue, 0 3px blue, 1px 0 blue, 0 -1px blue;
+    font-size: 3rem;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+}
+
+td {
+    background-color: lightgray;
+    width: 25%;
+}
+
+img {
+    width: 100%;
+}
+
+.nombre {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+tr#con_imagen_de_fondo {
+    height: 250px;
+}
+
+tr#con_imagen_de_fondo td {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+    padding-top: 14rem;
+}
+
+td#charmaleon {
+    background-image: url('../img/charmaleon.png');
+}
+
+td#charizard {
+    background-image: url('../img/charizard.png');
+}
+
+td#squirtle {
+    background-image: url('../img/squirtle.png');
+}
+
+td#wartortle {
+    background-image: url('../img/wartortle.png');
+}
+
+/**FORMULARIO**/
+
+#formulario {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: sans-serif;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.elemento label,
+.elemento input {
+    display: inline-block;
+    width: 10rem;
+}
