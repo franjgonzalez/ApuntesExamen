@@ -1,0 +1,24 @@
+{
+    "nombre": "Fran Juan",
+    "edad": 28,
+    "profesion": "Militar",
+    "email": "fran@gmail.com",
+    "experiencias": [
+        {
+            "empresa": "EA",
+            "puesto": "Soldado",
+            "años": 5,
+            "periodo": "2018 - 2020"
+        },
+        {
+            "empresa": "Mercadona",
+            "puesto": "Reponedor",
+            "años": 2
+        },
+        {
+            "empresa": "Bankia",
+            "puesto": "Analista",
+            "años": 4
+        }
+    ]
+}
